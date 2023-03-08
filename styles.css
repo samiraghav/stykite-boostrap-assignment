@@ -4,12 +4,68 @@ body {
   box-sizing: border-box;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
-  /* font-family: 'Alata', sans-serif;
-  font-weight: 400; */
 }
 
 html {
   max-width: 100vw;
+}
+
+span{
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+header {
+  background-image: url("images/desktop/image-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 500px;
+}
+
+header ul a {
+  border-bottom: 2px solid transparent;
+}
+
+header ul a:hover,
+header ul a:active {
+  border-bottom: 2px solid white;
+}
+
+#navbarNav a,
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+.hero-text {
+  width: 40%;
+}
+
+#intro .row {
+  position: relative;
+}
+
+.intro-img-container img {
+  width: 100%;
+}
+
+.intro-text {
+  padding-top: 2rem;
+  text-align: center;
+}
+.intro-text p {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  color: grey;
 }
 
 /* SLIDING MOBILE MENU */
@@ -68,22 +124,7 @@ html {
   }
 }
 
-/* HEADER */
-header {
-  background-image: url("images/desktop/image-hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 500px;
-}
 
-header ul a {
-  border-bottom: 2px solid transparent;
-}
-
-header ul a:hover,
-header ul a:active {
-  border-bottom: 2px solid white;
-}
 
 @media (max-width: 992px) {
   header {
@@ -92,44 +133,16 @@ header ul a:active {
   }
 }
 
-.hero-text {
-  width: 40%;
-}
+
 @media (max-width: 992px) {
   .hero-text {
     width: 100%;
   }
 }
 
-#navbarNav a,
-.navbar-brand {
-  color: white;
-}
 
-.navbar-brand {
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
-  font-size: 1.8em;
-}
 
-/* INTRO */
-#intro .row {
-  position: relative;
-}
 
-.intro-img-container img {
-  width: 100%;
-}
-
-.intro-text {
-  padding-top: 2rem;
-  text-align: center;
-}
-.intro-text p {
-  font-family: "Alata", sans-serif;
-  font-weight: 400;
-  color: grey;
-}
 
 @media (min-width: 993px) {
   .intro-text {
@@ -143,7 +156,6 @@ header ul a:active {
   }
 }
 
-/* IMAGE SECTION TITLE */
 #image-section-title {
   display: flex;
   flex-direction: row;
@@ -155,7 +167,6 @@ header ul a:active {
   width: 180px;
 }
 
-/* CREATIONS DESKTOP  */
 #creations-desktop img {
   width: 100%;
   transition: 200ms;
@@ -198,7 +209,6 @@ header ul a:active {
   }
 }
 
-/* CREATIONS MOBILE  */
 #creations-mobile {
   display: none;
 }
@@ -228,7 +238,6 @@ header ul a:active {
   }
 }
 
-/* FOOTER */
 footer {
   color: white;
   margin-top: 6rem;
