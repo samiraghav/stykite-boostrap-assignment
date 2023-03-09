@@ -133,6 +133,7 @@ header ul a:active {
   width: 100%;
   transition: 200ms;
   opacity: 0.9;
+  display: flex;
 }
 
 #creations-desktop img:hover,
@@ -153,6 +154,16 @@ header ul a:active {
   left: 2rem;
   right: 5px;
   bottom: 1rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  line-height: 1;
+}
+#creations-desktop .sky p {
+  position: absolute;
+  left: 2rem;
+  right: 5px;
+  bottom: 2rem;
   color: white;
   text-transform: uppercase;
   font-size: 2em;
@@ -270,6 +281,8 @@ footer .footer-links a {
   .btn-dark {
     padding: 2px 25px;
   }
+
+  
 }
 
 @media (max-width: 768px) {
